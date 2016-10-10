@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		878CC9221DABCD5900035B73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878CC9211DABCD5900035B73 /* AppDelegate.swift */; };
-		878CC9241DABCD5900035B73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878CC9231DABCD5900035B73 /* ViewController.swift */; };
 		878CC9271DABCD5900035B73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 878CC9251DABCD5900035B73 /* Main.storyboard */; };
 		878CC9291DABCD5900035B73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 878CC9281DABCD5900035B73 /* Assets.xcassets */; };
 		878CC92C1DABCD5900035B73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 878CC92A1DABCD5900035B73 /* LaunchScreen.storyboard */; };
 		878CC9371DABCD5900035B73 /* sampleCameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878CC9361DABCD5900035B73 /* sampleCameraTests.swift */; };
 		878CC9421DABCD5900035B73 /* sampleCameraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878CC9411DABCD5900035B73 /* sampleCameraUITests.swift */; };
+		878CC9501DABCD7800035B73 /* SampleCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878CC94F1DABCD7800035B73 /* SampleCameraViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		878CC91E1DABCD5900035B73 /* sampleCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sampleCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		878CC9211DABCD5900035B73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		878CC9231DABCD5900035B73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		878CC9261DABCD5900035B73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		878CC9281DABCD5900035B73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		878CC92B1DABCD5900035B73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		878CC93D1DABCD5900035B73 /* sampleCameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleCameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		878CC9411DABCD5900035B73 /* sampleCameraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleCameraUITests.swift; sourceTree = "<group>"; };
 		878CC9431DABCD5900035B73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		878CC94F1DABCD7800035B73 /* SampleCameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleCameraViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				878CC9211DABCD5900035B73 /* AppDelegate.swift */,
-				878CC9231DABCD5900035B73 /* ViewController.swift */,
+				878CC94F1DABCD7800035B73 /* SampleCameraViewController.swift */,
 				878CC9251DABCD5900035B73 /* Main.storyboard */,
 				878CC9281DABCD5900035B73 /* Assets.xcassets */,
 				878CC92A1DABCD5900035B73 /* LaunchScreen.storyboard */,
@@ -262,8 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				878CC9241DABCD5900035B73 /* ViewController.swift in Sources */,
 				878CC9221DABCD5900035B73 /* AppDelegate.swift in Sources */,
+				878CC9501DABCD7800035B73 /* SampleCameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
